@@ -20,23 +20,24 @@ function Home() {
   }, []);
 
   return (
-    <div className="text-center text-4xl text-red-400">
-      <h1>Marvel</h1>
+    <div  >
+      <h1 className="text-center text-4xl text-red-400">Marvel</h1>
+      <div className='  grid-cols-3  columns-3'>
       {personajes.map(per => (
-        <div className="columns-3" key={per.id}>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg" style={{ width: "18rem", height: "18rem" }}>
+        <div className="p-10 " key={per.id}>
+          <div className="rounded container" style={{ width: "5rem", height: "5rem" }}>
             <img 
               src={`${per.thumbnail.path}.${per.thumbnail.extension}`} 
               className="card-img-top" 
               alt={per.name} 
             />
-            <div className="card-body">
-              <p className="card-text">{per.name}</p>
-            </div>
+            
+              <p className=" text-slate-300 text-xl content-end">{per.name}</p>
+          
           </div>
         </div>
       ))}
-    </div>
+    </div></div>
   );
 }
 
