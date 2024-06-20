@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import md5 from "md5";
+import { orbitron } from "./ui/fonts";
 
 function Home() {
   const [personajes, setPersonajes] = useState([]);
@@ -25,11 +26,11 @@ function Home() {
 
   return (
     <div className="mx-auto">
-      <h1 className="text-center text-6xl text-red-800 my-8">Marvel Api</h1>
+      <h1 className={`${orbitron.className}antialiased text-slate-300 text-7xl text-center`}>Marvel Api</h1>
       <div className=" container   columns-3 p-4">
         {personajes.map((per) => (
           <div
-            className=" container m-6  max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 "
+            className=" container m-6  max-w-sm p-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 "
             key={per.id}
           >
               <p className=" text-slate-300  text-center">
