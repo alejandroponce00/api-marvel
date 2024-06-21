@@ -1,7 +1,9 @@
 import React from 'react'
 
 
-function Home() {
+async function Home() {
+  await new Promise(resolve => setTimeout(resolve, 3000))
+  
   return (
     <div><h2 className="text-red-600 text-center text-4xl my-6">Home</h2>
    <div className='text-slate-200 text-center px-10'>

@@ -4,7 +4,9 @@ import axios from "axios";
 import md5 from "md5";
 
 
+
 function Comics() {
+  
   const [personajes, setPersonajes] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredPersonajes, setFilteredPersonajes] = useState([]);
@@ -14,7 +16,7 @@ function Comics() {
     const privateKey = "9918f218ea7375995809a8da4f285f9543203e4a";
     const publicKey = "68f80bf784fe016d66c599ac79bd30ff";
     const hash = md5(ts + privateKey + publicKey);
-
+   
     axios
       .get(
         `https://gateway.marvel.com:443/v1/public/comics?ts=${ts}&apikey=${publicKey}&hash=${hash}`
@@ -33,8 +35,9 @@ function Comics() {
       )
     );
   }, [searchTerm, personajes]);
-
+  
   return (
+    
     <div className="mx-auto">
       <h2 className="text-red-600 text-center text-4xl my-6">Comics</h2>
       
