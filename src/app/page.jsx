@@ -16,7 +16,8 @@ Nuestra página web, creada con las últimas tecnologías, te ofrece una experie
 <br /><strong>¿Qué Puedes Explorar?</strong><br />
 Comics: Navega por una extensa colección de cómics, descubre nuevas historias y revive clásicos atemporales.
 <br />Personajes: Desde los héroes más icónicos hasta los villanos más temidos, conoce los perfiles detallados de tus personajes favoritos.
-<br />Creadores: Aprende sobre los genios detrás de las historias y el arte que han dado vida a Marvel.
+<br />Sigue las Series
+Mantente al tanto de las últimas series de Marvel. Consulta las imágenes promocionales y detalles de las series actuales y futuras que capturan la esencia del universo Marvel.
 Únete a la Aventura
 Explora, descubre y disfruta del universo de Marvel como nunca antes. Nuestra plataforma está diseñada para todos los fanáticos, desde los más nuevos hasta los más dedicados. ¡Sumérgete en el mundo de Marvel y descubre todo lo que tiene para ofrecer!
 

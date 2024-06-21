@@ -19,7 +19,7 @@ import {
     { name: 'Principal', href: '/', current: true },
     { name: 'Comics', href: '/Posts/comics', current: false },
     { name: 'Personajes', href: '/Posts/personajes', current: false },
-    { name: 'Creadores', href: '/Posts/creadores', current: false },
+    { name: 'Series', href: '/Posts/series', current: false },
   ]
   
   function classNames(...classes) {
