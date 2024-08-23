@@ -1,1 +1,0 @@
-https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=68f80bf784fe016d66c599ac79bd30ff&hash=6fe6b976fed8019c4caac7cdd9da592d

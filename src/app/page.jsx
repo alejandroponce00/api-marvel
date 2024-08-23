@@ -2,7 +2,7 @@ import React from 'react'
 
 
 async function Home() {
-  await new Promise(resolve => setTimeout(resolve, 3000))
+  await new Promise(resolve => setTimeout(resolve, 200))
   
   return (
     <div><h2 className="text-red-600 text-center text-4xl my-6">Home</h2>
